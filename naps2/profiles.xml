@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfScanProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScanProfile>
+    <Version>2</Version>
+    <Device>
+      <ID>Canon DR-C230 TWAIN</ID>
+      <Name>Canon DR-C230</Name>
+      <IconUri xsi:nil="true" />
+    </Device>
+    <Caps>
+      <PaperSources />
+      <FeederCheck xsi:nil="true" />
+      <Glass />
+      <Feeder />
+      <Duplex />
+    </Caps>
+    <DriverName>twain</DriverName>
+    <DisplayName>Canon DR-C230</DisplayName>
+    <IconID>0</IconID>
+    <MaxQuality>true</MaxQuality>
+    <IsDefault>true</IsDefault>
+    <UseNativeUI>false</UseNativeUI>
+    <AfterScanScale>OneToOne</AfterScanScale>
+    <Brightness>0</Brightness>
+    <Contrast>0</Contrast>
+    <BitDepth>C24Bit</BitDepth>
+    <PageAlign>Right</PageAlign>
+    <PageSize>A4</PageSize>
+    <CustomPageSizeName xsi:nil="true" />
+    <CustomPageSize xsi:nil="true" />
+    <Resolution>Dpi100</Resolution>
+    <PaperSource>Duplex</PaperSource>
+    <EnableAutoSave>true</EnableAutoSave>
+    <AutoSaveSettings>
+      <FilePath>C:\SCANS\$(YYYY)_$(MM)_$(DD)_$(hh)_$(mm)_$(ss)_$(nn).pdf</FilePath>
+      <PromptForFilePath>true</PromptForFilePath>
+      <ClearImagesAfterSaving>true</ClearImagesAfterSaving>
+      <Separator>FilePerScan</Separator>
+    </AutoSaveSettings>
+    <Quality>100</Quality>
+    <AutoDeskew>false</AutoDeskew>
+    <RotateDegrees>0</RotateDegrees>
+    <BrightnessContrastAfterScan>false</BrightnessContrastAfterScan>
+    <ForcePageSize>false</ForcePageSize>
+    <ForcePageSizeCrop>false</ForcePageSizeCrop>
+    <TwainImpl>Default</TwainImpl>
+    <TwainProgress>false</TwainProgress>
+    <ExcludeBlankPages>true</ExcludeBlankPages>
+    <BlankPageWhiteThreshold>70</BlankPageWhiteThreshold>
+    <BlankPageCoverageThreshold>25</BlankPageCoverageThreshold>
+    <WiaOffsetWidth>false</WiaOffsetWidth>
+    <WiaRetryOnFailure>false</WiaRetryOnFailure>
+    <WiaDelayBetweenScans>false</WiaDelayBetweenScans>
+    <WiaDelayBetweenScansSeconds>2</WiaDelayBetweenScansSeconds>
+    <WiaVersion>Default</WiaVersion>
+    <FlipDuplexedPages>false</FlipDuplexedPages>
+    <KeyValueOptions xsi:nil="true" />
+  </ScanProfile>
+</ArrayOfScanProfile>

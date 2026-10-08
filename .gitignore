@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# logs produced while running the service
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
